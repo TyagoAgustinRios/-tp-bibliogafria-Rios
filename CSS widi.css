@@ -1,0 +1,111 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: rgb(243, 228, 216);
+    color: #c28743;
+    padding: 20px 0;
+    text-align: center;
+    border: 5px #c28743 solid;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.uno {
+    flex: 1;
+    background-color: rgb(243, 228, 216);
+    padding: 15px;
+     border: #c28743 10px solid;
+}
+
+.dos {
+    flex: 1;
+    background-color: rgb(243, 228, 216);
+    padding: 15px;
+     border: #c28743 10px solid;
+}
+
+article.fondo {
+    padding: 20px;
+    background-color: white;
+}
+
+.imagen {
+    background-color: rgb(8, 8, 8);
+    padding: 5px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 250px;
+    max-width: 100px;
+}
+
+.simbolo {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    transition: left 0.3s;
+    margin: 5px;
+}
+
+.boton {
+    padding: 8px 12px;
+    margin: 10px 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    color: #00aced;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.formulario {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#aficiones{
+    margin-right: 1000px;
+    flex: 2;
+    background-color: rgb(243, 228, 216);
+    padding: 30px;
+    border: #c28743 10px solid;
+    border-radius: 10px;
+}
