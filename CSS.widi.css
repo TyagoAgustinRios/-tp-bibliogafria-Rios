@@ -76,9 +76,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
 
 .formulario {
     background-color: #f1f1f1;

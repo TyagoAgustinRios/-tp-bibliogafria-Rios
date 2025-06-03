@@ -1,89 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta lang="es-ar">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biografía</title>
     <link rel="stylesheet" href="CSS widi.css">
 </head>
 <body>
-    <header class="fondo">
+    <header>
         <h1><strong>Tyago Agustín Ríos</strong></h1>
     </header>
 
     <main>
-        <section class="uno">
-            <h1>Biografía</h1>
+        <section>
+            <h2>Biografía</h2>
             <p>Mi nombre es Tyago Agustín Ríos, nací en Neuquén capital y actualmente curso el 5to año en la EPET N°20. Me apasionan la música y los deportes. Toco el piano y la guitarra, y practico tenis en el club Biguá. Asisto a una escuela de música y me gustaría seguir una carrera vinculada al arte o la tecnología.</p>
         </section>
-      <section class="dos">
+
+        <section>
             <h2>Películas favoritas</h2>
             <ol>
-                <section>
-                    <li class="L">Harry Potter y el prisionero de Azkaban</li>
-                </section>
-                <section>
-                    <li class="L">Whiplash</li>
-                </section>
-                <section>
-                    <li class="L">Harry Potter y el principe mestizo</li>
-                </section>
+                <li>Harry Potter y el prisionero de Azkaban</li>
+                <li>Whiplash</li>
+                <li>Harry Potter y el príncipe mestizo</li>
             </ol>
-        </section>  
+        </section>
     </main>
 
-    <article class="fondo">
-        <div class="caja">
-    
+    <article>
+        <section>
+            <h2>Datos de interés</h2>
             <ul>
-                <section id="aficiones">
-                    <h3 id="h3"><strong>Datos de interés</strong></h3>
-                    <div id="parte1">
-                        <li id="li1">Toco el piano
-                        <a href="https://es.wikipedia.org/wiki/Piano" target="_blank"><img src="IMAGENES/piano.jpeg" class="imagen" alt="Imagen de piano" title="Piano" id="cuadro"/></a>
-                        </li>
-                    </div>
-                    <div id="parte2">
-                        <li id="li2">Juego al tenis en el club Biguá
-                        <a href="https://es.wikipedia.org/wiki/Tenis" target="_blank"><img src="IMAGENES/tenis2.jpeg" class="imagen" alt="Imagen de tenis" title="Tenis" id="cuadro1"/></a>
-                        </li>
-                    </div>
-                </section>
-                
-                <section>
-                    <div class="contenedor">
-                        <a href="https://www.tiktok.com/" target="_blank"><img src="IMAGENES/icono_TikTok.png" class="simbolo" id="simbolo" alt="Icono Tiktok"></a>
-                        <a href="https://www.instagram.com/" target="_blank"><img src="IMAGENES/icono_ig.jpeg" class="simbolo" id="simbolo1" alt="Icono Instagram"></a>
-                    </div>
-                </section>    
+                <li>
+                    Toco el piano
+                    <a href="https://es.wikipedia.org/wiki/Piano" target="_blank">
+                        <img src="IMAGENES/piano.jpeg" alt="Imagen de piano" title="Piano">
+                    </a>
+                </li>
+                <li>
+                    Juego al tenis en el club Biguá
+                    <a href="https://es.wikipedia.org/wiki/Tenis" target="_blank">
+                        <img src="IMAGENES/tenis2.jpeg" alt="Imagen de tenis" title="Tenis">
+                    </a>
+                </li>
             </ul>
-        </div>
+        </section>
 
-        <div class="formulario">
-            <h3>Formulario</h3>
-            <form onsubmit="mostrarDatos(event)">
-                <section class="nombre">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre">
-                    <button type="submit">Enviar</button>
-                </section>
-                <section class="email">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email">
-                    <button type="submit">Enviar</button>
-                </section>
+        <section>
+            <h2>Redes sociales</h2>
+            <a href="https://www.tiktok.com/" target="_blank">
+                <img src="IMAGENES/icono_TikTok.png" alt="Icono Tiktok">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="IMAGENES/icono_ig.jpeg" alt="Icono Instagram">
+            </a>
+        </section>
+
+        <section>
+            <h2>Formulario</h2>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <button type="submit">Enviar</button>
             </form>
-            <p id="resultado"></p>
-            <p id="resultado1"></p>
-            
-        </div>
+        </section>
 
-        <iframe src="https://www.youtube.com/embed/watch?v=kIlTzQghJWY" frameborder="0" allowfullscreen></iframe>
+        <section>
+            <h2>Video</h2>
+            <iframe src="https://www.youtube.com/embed/kIlTzQghJWY" style="border: none;" allowfullscreen></iframe>
+        </section>
     </article>
 
-    <footer class="contenedor">
-        <p id="texto">&copy; 2024 Tyago Ríos. Todos los derechos reservados.</p>
+    <footer>
+        <p>&copy; 2024 Tyago Ríos. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
